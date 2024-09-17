@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj": {}
+    "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj": {}
   },
   "projects": {
-    "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj": {
+    "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj",
+        "projectUniqueName": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj",
         "projectName": "LabaWebApp.Client",
-        "projectPath": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj",
+        "projectPath": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj",
         "packagesPath": "C:\\Users\\kivip\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\obj\\",
+        "outputPath": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\visualsdk\\NuGetPackages"
