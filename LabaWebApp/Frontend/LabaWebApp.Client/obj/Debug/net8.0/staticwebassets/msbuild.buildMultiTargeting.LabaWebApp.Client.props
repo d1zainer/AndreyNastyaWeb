@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LabaWebApp.Client.props" />
+</Project>

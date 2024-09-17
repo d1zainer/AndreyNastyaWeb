@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Таблицы</title>
+    <style type="text/css">
+        table {
+            border: 2px black solid;
+            border-color: #000;
+            /* width: 50%; */
+            /* height: 100px; */
+            border-collapse: collapse;
+            /* background-color: yellowgreen; */
+        }
+
+            table.t1 {
+                width: 50%;
+                height: 20%;
+            }
+
+        td, th, tr {
+            border: 2px solid;
+        }
+
+            tr.t1 {
+                height: 20px;
+                width: 50px;
+            }
+
+        table.t2 {
+            width: 200px;
+            height: 200px;
+        }
+
+        .greens {
+            background-color: rgb(66, 243, 237);
+        }
+
+        .yellows {
+            background-color: rgb(242, 248, 132);
+        }
+
+        .reds {
+            background-color: red;
+        }
+
+        .bl {
+            background-color: blue;
+        }
+
+        .gr {
+            background-color: greenyellow;
+        }
+
+        .ye {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h3 align="left">Таблица 1</h3>
+    <table class="t1">
+        <thead>
+            <tr class="t1">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="t1">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="t1">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="t1">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="t1">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3 align="left">Таблица 2</h3>
+    <table class="t1">
+        <thead>
+            <tr class="t1">
+                <th colspan="5"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="t1">
+                <td rowspan="3"></td>
+                <td></td>
+                <td rowspan="3"></td>
+                <td></td>
+
+            </tr>
+            <tr class="t1">
+                <td rowspan="3"></td>
+                <td rowspan="3"></td>
+                <td></td>
+
+            </tr>
+            <tr class="t1">
+                <td></td>
+            </tr>
+            <tr class="t1">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3 align="left">Таблица 3</h3>
+    <table class="t2">
+        <tbody>
+            <tr class="t2"></tr>
+        <th colspan="8"></th>
+        </tr>
+        <tr class="t2">
+            <td rowspan="6"></td>
+            <td colspan="6"></td>
+            <td rowspan="7"></td>
+
+        </tr>
+        <tr class="t2">
+            <td rowspan="4"></td>
+            <td colspan="4"></td>
+            <td rowspan="5"></td>
+
+        </tr>
+        <tr class="t2">
+            <td rowspan="2"></td>
+            <td colspan="2"></td>
+            <td rowspan="3"></td>
+        </tr>
+        <tr class="t2">
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr class="t2">
+            <td colspan="3"></td>
+        </tr>
+        <tr class="t2">
+            <td colspan="5"></td>
+        </tr>
+        <tr class="t2">
+            <td colspan="7"></td>
+        </tr>
+        </tbody>
+    </table>
+<h3 align="left">Таблица 4</h3>
+<table class="t2">
+    <tbody>
+    <tr class="t2"></tr>
+    <th class="greens" colspan="8"></th>
+    </tr>
+    <tr class="t2">
+        <td class="yellows" rowspan="6"></td>
+        <td class="greens" colspan="6"></td>
+        <td class="yellows" rowspan="6"></td>
+
+    </tr>
+    <tr class="t2">
+        <td class="yellows" rowspan="4"></td>
+        <td class="greens" colspan="4"></td>
+        <td class="yellows" rowspan="4"></td>
+
+    </tr>
+    <tr class="t2">
+        <td class="yellows" rowspan="2"></td>
+        <td class="reds"></td>
+        <td class="bl"></td>
+        <td class="yellows" rowspan="2"></td>
+    </tr>
+    <tr class="t2">
+        <td class="gr"></td>
+        <td class="ye"></td>
+
+    </tr>
+    <tr class="t2">
+        <td class="greens" colspan="4"></td>
+    </tr>
+    <tr class="t2">
+        <td class="greens" colspan="6"></td>
+    </tr>
+    <tr class="t2">
+        <td class="greens" colspan="8"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

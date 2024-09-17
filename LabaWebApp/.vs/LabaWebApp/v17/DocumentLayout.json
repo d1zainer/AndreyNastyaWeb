@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\EducationSFEDU\\LabaWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba1\\7.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba1\\7.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba1\\6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba1\\6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labawebapp\\frontend\\labawebapp.client\\components\\pages\\laba1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\components\\pages\\laba1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Laba1.razor",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba1.razor",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba1.razor",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba1.razor",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba1.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:41:13.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "7.html",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba1\\7.html",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba1\\7.html",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba1\\7.html",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba1\\7.html",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAD8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-17T11:39:57.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "6.html",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba1\\6.html",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba1\\6.html",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba1\\6.html",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba1\\6.html",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAIwMoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-17T11:39:50.111Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
