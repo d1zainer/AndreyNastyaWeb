@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tXIposTiNIEyr61TFJlcvrlRzZ9xoLkDlx89UE1QARD0o9dYU8AGOp9LEVtpGdrClXqrNHq4dlpGuoAeVvtqbw==",
+  "dgSpecHash": "vv0+9/F1zRrIVcEkG81WA8Dy8C3PoqMSZuEOw4La+zNmOvYKQ2ZMW213spG/QcOqmkRBBlvHd2s4sPGTiT3hww==",
   "success": true,
-  "projectFilePath": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Backend\\LabaWebApp.API\\LabaWebApp.API.csproj",
+  "projectFilePath": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Backend\\LabaWebApp.API\\LabaWebApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kivip\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\kivip\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

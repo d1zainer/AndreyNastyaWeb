@@ -443,11 +443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Backend\\LabaWebApp.API\\LabaWebApp.API.csproj",
+      "projectUniqueName": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Backend\\LabaWebApp.API\\LabaWebApp.API.csproj",
       "projectName": "LabaWebApp.API",
-      "projectPath": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Backend\\LabaWebApp.API\\LabaWebApp.API.csproj",
+      "projectPath": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Backend\\LabaWebApp.API\\LabaWebApp.API.csproj",
       "packagesPath": "C:\\Users\\kivip\\.nuget\\packages\\",
-      "outputPath": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Backend\\LabaWebApp.API\\obj\\",
+      "outputPath": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Backend\\LabaWebApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\visualsdk\\NuGetPackages"

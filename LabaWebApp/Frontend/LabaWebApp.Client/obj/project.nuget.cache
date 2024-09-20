@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lShS0Dstbi7C8xYaOV3qNeyJpMdU3ueKGLAWieC+Wc4ze3vtUvaw/f2hcSkPGacKSzidWb3igmOG+vK8nRJ2lw==",
+  "dgSpecHash": "IXwA1C34rGg6sweL+doDtf1apYWmz02F4/viavKXsxsAlQ8th5Ylkgqou5dwS9250Og6AsWbdgt3AQfwIE0qug==",
   "success": true,
-  "projectFilePath": "C:\\C#\\EducationSFEDU\\LabaWebApp\\Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj",
+  "projectFilePath": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
