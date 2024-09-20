@@ -1,0 +1,52 @@
+<!-- 29. Сделайте красную строку в абзацах 30px.
+30. Для второго абзаца <p> уберите красную строку
+    31. Поставьте текст в таблице <table> по верхнему краю по вертикали.
+32. Поставьте текст в <th> по центру по вертикали. -->
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                p{
+                    text-indent: 30px;
+                }
+                .sec{
+                    text-indent: 0px;
+                }
+                table, td{
+                    border: 1px black solid;
+                    border-collapse: collapse;
+                    vertical-align: top;
+                    width: 100px;
+                    height: 100px;
+                }
+                th{
+                    border: 1px black solid;
+                    vertical-align: middle;
+                    width: 100px;
+                    height: 100px;
+                }
+            </style>
+        </head>
+        <body>
+            <p>обычный абзац с красной строкой</p>
+            <p class="sec">
+                второй абзац без красной строки
+            </p>
+            <p>обычный абзац с красной строкой</p>
+            <table>
+                <tr>
+                    <th>
+                        123
+                    </th>
+                    <th>
+                        321
+                    </th>
+                </tr>
+                <tr>
+                    <td> 123</td>
+                    <td>123 </td>
+                </tr>
+            </table>
+        </body>
+    </html>

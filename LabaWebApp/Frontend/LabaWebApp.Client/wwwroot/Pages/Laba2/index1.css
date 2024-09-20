@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+}
+
+ol {
+    color: red;
+}
+
+em {
+    color: blue;
+    font-weight: bold;
+}
+
+h1 {
+    color: green;
+}
+
+h3 {
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.nonital {
+    font-family: sans-serif;
+    font-size: x-small;
+}
+
+b {
+    color: red;
+}
+
+ul {
+    font-style: italic;
+    color: darkslateblue;
+}
+
+.big {
+    font-size: medium;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: antiquewhite;
+}
+
+h2, h4 {
+    color: blue;
+    text-align: center;
+}
+
+h4 {
+    font-size: small;
+}
+
+p {
+    font-family: sans-serif;
+    text-indent: 30px;
+    font-size: larger;
+}
+
+em {
+    font: italic;
+    color: blue;
+}
+
+b {
+    color: red;
+}
