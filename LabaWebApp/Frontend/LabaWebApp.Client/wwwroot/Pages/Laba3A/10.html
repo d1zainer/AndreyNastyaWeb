@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+    Задание: Создайте скрипт, который выводит все числа из интервала от 2 до 100, которые делятся на 5 и 11 с остатком 2. В результате полученные выводить числа одной строкой через запятую.
+    <script>
+        function myFunction()
+        {
+            var numbers = [];
+            for (var i = 2; i <= 100; i++)
+            {
+                if (i % 5 === 2 && i % 11 === 2) { 
+                    numbers.push(i);
+                }
+            }
+
+            alert("Результат: " + numbers.join(', '));
+        }
+        myFunction();
+
+    </script>
+
+</body>
+</html>

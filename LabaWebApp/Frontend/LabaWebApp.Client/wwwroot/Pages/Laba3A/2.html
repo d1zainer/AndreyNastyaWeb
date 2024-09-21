@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html> 
+<html> 
+<body>
+<link rel="stylesheet" href="laba3style.css"> <!-- Подключаем файл с внешними стилями -->
+<p>
+    Задание: Создать страницу со скриптом, которая выводила бы сообщение «Нажмите кнопку для
+    замены текста страницы». В скрипте опишите тег button, который будет при нажатии будет
+    запускать функцию, созданную средствами javascript, которая заменит текст, размещенный в теге
+    <a> </a> на текст «произошла замена ссылки», который бы извлекался из переменной str_,
+    хранящей ссылку на сайт.
+</p>
+
+<button id="my_btn" onclick="myFunction()" class="custom_button">Нажми меня </button>
+
+
+<a id="myLink" href="https://example.com">Исходная ссылка</a>
+
+<script>
+        var str_ = "произошла замена ссылки"; // Текст ссылки
+        var url_ = "https://lms.sfedu.ru"; // Новая ссылка
+        alert("Привет");
+        function myFunction() {
+            var link = document.getElementById("myLink");
+            link.innerHTML = str_; // Меняем текст ссылки
+            link.setAttribute("href", url_); // Меняем саму ссылку (атрибут href)
+            var btn = document.getElementById("my_btn");
+            btn.innerHTML = "Кнопка нажата!";
+        }
+
+    </script>
+</body> 
+</html>
+<style>
+    .custom_button {
+        border: none;
+        border-radius: 20px; /* Закругляем края кнопок */
+        width: 100px;
+        height: 30px;
+        color: white; /* Белый текст */
+        background-color: #6a0dad; /* Фиолетовый фон */
+    }
+</style>
+

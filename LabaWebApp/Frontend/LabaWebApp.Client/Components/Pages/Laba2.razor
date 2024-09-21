@@ -1,6 +1,88 @@
 ﻿@page "/laba2"
 
 <h1>Лабораторная работа №2</h1>
-@code {
 
-}
+<style>
+    /* Стиль для навигации */
+    .custom-nav {
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap; /* Разрешаем перенос кнопок на следующую строку */
+        gap: 0.5rem; /* Расстояние между кнопками */
+    }
+
+    .custom-nav-item {
+        flex: 1 1 calc(25% - 0.5rem); /* Устанавливаем ширину кнопок в 25% от родительского элемента минус отступ */
+        display: flex;
+        justify-content: center; /* Центрируем кнопки в строке */
+        margin-bottom: 1rem; /* Увеличиваем расстояние между кнопками */
+    }
+
+    .custom-nav-link {
+        color: white; /* Белый текст */
+        background-color: #6a0dad; /* Фиолетовый фон */
+        border: none;
+        border-radius: 20px; /* Закругляем края кнопок */
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 3rem;
+        text-decoration: none; /* Убираем подчеркивание ссылок */
+        padding: 0 1rem;
+        font-size: 1rem;
+        transition: background-color 0.3s, transform 0.3s; /* Плавный переход для hover */
+        width: 80%; /* Устанавливаем ширину кнопок в пределах контейнера */
+        box-sizing: border-box; /* Учитываем паддинг и границы */
+    }
+
+        .custom-nav-link.active {
+            background-color: #5b00a3; /* Более темный фиолетовый для активного состояния */
+        }
+
+        .custom-nav-link:hover {
+            background-color: #8a2be2; /* Светлый фиолетовый для hover состояния */
+            color: white;
+            transform: scale(1.05); /* Увеличение кнопки при наведении */
+        }
+</style>
+<nav class="custom-nav">
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/1.html">Страница 1</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/2.html">Страница 2</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/3.html">Страница 3</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/4.html">Страница 4</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/5.html">Страница 5</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/6.html">Страница 6</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/7.html">Страница 7</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/8.html">Страница 8</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/9.html">Страница 9</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/10.html">Страница 10</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/11.html">Страница 11</a>
+    </div>
+    <div class="custom-nav-item">
+        <a class="custom-nav-link" href="Pages/Laba2/12.html">Страница 12</a>
+    </div>
+</nav>
+
