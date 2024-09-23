@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <div id="test"></div>
+
+    <script>
+        var color = prompt("Введите цвет", "Синий, зеленый или красный");
+        var form = prompt("Введите форму", "Круглый или квадратный");
+        var size = prompt("Введите размер", "Большой или маленький");
+        //var result = a;
+        if (color != "синий" && form == "круглый" && size == "маленький") {
+            result = "Наверное вы подумали про яблоко";
+        } else
+            if (form == "квадратный") {
+                result = "Наверное вы подумали про нечто квадратное";
+            } else {
+                result = "Понятия не имею, о чем вы думали";
+            }
+        alert(result);
+    </script>
+
+</body>
+
+</html>
