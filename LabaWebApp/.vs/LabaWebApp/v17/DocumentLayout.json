@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\8.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\8.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\12.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\12.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\components\\pages\\laba3.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\components\\pages\\laba3.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\components\\pages\\laba2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\components\\pages\\laba2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\8.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\8.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\12.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\12.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3a\\2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\6.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\wwwroot\\pages\\laba3\\2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\components\\pages\\laba1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\components\\pages\\laba2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|solutionrelative:frontend\\labawebapp.client\\components\\pages\\laba2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCC92F13-C3B5-42F5-B986-730B2E85D341}|Frontend\\LabaWebApp.Client\\LabaWebApp.Client.csproj|c:\\c#\\educationsfedu\\labarasp\\labawebapp\\frontend\\labawebapp.client\\wwwroot\\pages\\laba2\\10.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -102,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,59 +130,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwC4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T20:02:29.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "12.html",
-              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\12.html",
-              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\12.html",
-              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\12.html",
-              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\12.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-21T15:03:24.453Z",
+              "Title": "Laba3.razor",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba3.razor",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba3.razor",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba3.razor",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba3.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T20:00:50.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "10.html",
-              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\10.html",
-              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\10.html",
-              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\10.html",
-              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\10.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-21T14:48:24.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "8.html",
-              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\8.html",
-              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\8.html",
-              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\8.html",
-              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\8.html",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAIwBoAAABHAAAA",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\8.html",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\8.html",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\8.html",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\8.html",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBoAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-09-21T14:18:31.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "6.html",
-              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\6.html",
-              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\6.html",
-              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\6.html",
-              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\6.html",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\6.html",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\6.html",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\6.html",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\6.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-21T14:01:14.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T14:01:14.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\Components\\Pages\\Home.razor",
@@ -186,19 +193,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "2.html",
-              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\2.html",
-              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\2.html",
-              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\2.html",
-              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\2.html",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\2.html",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\2.html",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\2.html",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\2.html",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-09-21T10:19:54.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "10.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\10.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\10.html",
@@ -210,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Laba1.razor",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba1.razor",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba1.razor",
@@ -222,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "6.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\6.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\6.html",
@@ -234,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "7.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\7.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\7.html",
@@ -246,7 +253,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "10.html",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\10.html",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\10.html",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\10.html",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\10.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-21T14:48:24.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Laba2.razor",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba2.razor",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba2.razor",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba2.razor",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba2.razor",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T06:23:38.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "12.html",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\12.html",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\12.html",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\12.html",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\12.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-21T15:03:24.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "index1.css",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\index1.css",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\index1.css",
@@ -258,19 +302,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "4.html",
-              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\4.html",
-              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\4.html",
-              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\4.html",
-              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\4.html",
+              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\4.html",
+              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\4.html",
+              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\4.html",
+              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3\\4.html",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-09-21T13:33:11.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "9.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\9.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\9.html",
@@ -282,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "12.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\12.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\12.html",
@@ -294,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "2.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\2.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\2.html",
@@ -306,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "1.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\1.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\1.html",
@@ -318,19 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Laba2.razor",
-              "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba2.razor",
-              "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba2.razor",
-              "ToolTip": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba2.razor",
-              "RelativeToolTip": "Frontend\\LabaWebApp.Client\\Components\\Pages\\Laba2.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T06:23:38.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "8.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\8.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\8.html",
@@ -342,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "1.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba1\\1.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba1\\1.html",
@@ -354,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "11.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\11.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\11.html",
@@ -366,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "3.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\3.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\3.html",
@@ -378,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "4.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\4.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\4.html",
@@ -390,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "5.html",
               "DocumentMoniker": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\5.html",
               "RelativeDocumentMoniker": "Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba2\\5.html",
