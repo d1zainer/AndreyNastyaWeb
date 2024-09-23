@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Задание: Скопируйте ваш скрипт из индивидуального задания 1 (задания 8) и измените его таким образом, чтобы все манипуляции с введенным текстом выполнялись в функции.
+        <script>
+            function myFunction() {
+                var numbers = [];
+                for (var i = 2; i <= 100; i++) {
+                    if (i % 5 === 2 && i % 11 === 2) {
+                        numbers.push(i);
+                    }
+                }
+
+                alert("Результат: " + numbers.join(', '));
+            }
+            myFunction();
+
+        </script>
+
+</body>
+</html>
