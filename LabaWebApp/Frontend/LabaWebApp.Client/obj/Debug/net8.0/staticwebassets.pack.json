@@ -109,8 +109,28 @@
       "PackagePath": "staticwebassets\\Pages\\Laba2\\index1.css"
     },
     {
+      "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\10.html",
+      "PackagePath": "staticwebassets\\Pages\\Laba3A\\10.html"
+    },
+    {
+      "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\12.html",
+      "PackagePath": "staticwebassets\\Pages\\Laba3A\\12.html"
+    },
+    {
       "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\2.html",
       "PackagePath": "staticwebassets\\Pages\\Laba3A\\2.html"
+    },
+    {
+      "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\4.html",
+      "PackagePath": "staticwebassets\\Pages\\Laba3A\\4.html"
+    },
+    {
+      "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\6.html",
+      "PackagePath": "staticwebassets\\Pages\\Laba3A\\6.html"
+    },
+    {
+      "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba3A\\8.html",
+      "PackagePath": "staticwebassets\\Pages\\Laba3A\\8.html"
     },
     {
       "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\app.css",

@@ -9,45 +9,36 @@
         Задание: Написать скрипт, в котором будет предлагаться ввести текст размером не менее случайного сгенерированного программно числа (генерировать в диапазоне от 0 до 50) символов. Поменять местами в строке первое и последнее слово и вывести в сообщении полученный результат.
     </p>
 <script>
-    function getRandomLength() {
-        return Math.floor(Math.random() * 50) + 1;
-    }
+    function myFunction() {
+        // Генерируем случайное число от 1 до 50 для длины строки
+        var str_length = Math.floor(Math.random() * 50) + 1;
+        var message = prompt(`Введите минимум ${str_length} символов:`);
 
-    function getMessage(str_length) {
-        let message = prompt(`Введите минимум ${str_length} символов:`);
+        // Проверка длины введенной строки
         while (message.length < str_length) {
             message = prompt(`Текст слишком короткий. Введите минимум ${str_length} символов:`);
         }
-        return message;
-    }
 
-    function swapFirstAndLastWord(message) {
-        const words = message.trim().split(" ");
+        // Разделение строки на слова
+        var words = message.trim().split(" ");
+
+        // Если строка содержит меньше 2 слов
         if (words.length < 2) {
             alert("Введенная строка содержит только одно слово, перестановка невозможна.");
-            return null;
+            return;
         }
 
-        const temp = words[0];
+        // Меняем местами первое и последнее слово
+        var temp = words[0];
         words[0] = words[words.length - 1];
         words[words.length - 1] = temp;
 
-        return words.join(" ");
+        // Объединяем слова обратно в строку и выводим результат
+        var newMessage = words.join(" ");
+        alert("Результат: " + newMessage);
     }
 
-    function displayResult(result) {
-        if (result) {
-            alert("Результат: " + result);
-        }
-    }
-
-    function myFunction() {
-        const str_length = getRandomLength();
-        const message = getMessage(str_length);
-        const swappedMessage = swapFirstAndLastWord(message);
-        displayResult(swappedMessage);
-    }
-
+    // Вызов функции при загрузке страницы
     myFunction();
 
     </script>
