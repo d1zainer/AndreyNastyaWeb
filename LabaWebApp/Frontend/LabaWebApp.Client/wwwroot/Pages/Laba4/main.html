@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наша персональная страничка</title>
+
+</head>
+
+<body id="bg">
+<h1 class="welcome-header">Добро пожаловать в лабораторную работу №4</h1>
+
+<!-- Navigation Menu (Toggle Buttons) -->
+<div id="nav-menu">
+    <button onclick="showSection('about', this)" class="active">О нас</button>
+    <button onclick="showSection('music', this)">Музыка</button>
+    <button onclick="showSection('work', this)">Задание</button>
+</div>
+
+<!-- Content Sections -->
+<div id="content">
+    <section id="about" class="section-content active-section">
+        <div class="about-section-left">
+            <!-- Картинка слева -->
+            <div class="image-container animate-slide-left">
+                <img src="jpg/nastya.jpg" alt="Your Photo" width="50%">
+            </div>
+            <div class="text-container animate-slide-left">
+                <p class="big-title">Это Настя</p>
+
+                <p>Закончила музыкальный колледж с красным дипломом и поступила на ИКТИБ. Люблю горы и Азовское море. Слушаю классическую музыку и тяжёлый рок.</p>
+            </div>
+        </div>
+        <div class="about-section-right">
+            <!-- Картинка справа -->
+            <div class="text-container animate-slide-right">
+                <p class="big-title">Это Андрей</p>
+                <p>Родился в Осетии и проехал более 500 км, чтобы поступить в ИКТИБ. Люблю хип-хопом и играю в баскетбол.</p>
+
+            </div>
+            <div class="image-container animate-slide-right">
+                <img src="jpg/andrey.jpg" alt="Your Photo">
+            </div>
+        </div>
+    </section>
+    <section id="music" class="section-content" style="color: white; padding: 10px;">
+        <p class="fade-in" style="font-size: 1.2em; text-align: center;">
+            Настя любит рок и тяжелую музыку, а я люблю хип-хоп.
+        </p>
+
+        <div style="margin-bottom: 10px;">
+            <h3 class="fade-in" style="margin-bottom: 0px; font-size: 1.5em;">Наши любимые треки:</h3>
+            <ul style="list-style-type: none; padding: 0; text-align: center;">
+                <li class="fade-in" style="margin-bottom: 10px; display: flex; align-items: center; justify-content: center;">
+                    🎸 <strong>Imagine Dragons</strong> - <em>Demons</em>
+                    <audio controls style="margin-left: 10px;">
+                        <source src="mp3/Imagine Dragons - Demons.mp3" type="audio/mp3">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </li>
+                <li class="fade-in" style="margin-bottom: 10px; display: flex; align-items: center; justify-content: center;">
+                    🎸 <strong>The White Stripes</strong> - <em>Seven Nation Army</em>
+                    <audio controls style="margin-left: 10px;">
+                        <source src="mp3/The White Stripes - Seven Nation Army.mp3" type="audio/mp3">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </li>
+                <li class="fade-in" style="margin-bottom: 10px; display: flex; align-items: center; justify-content: center;">
+                    🎧 <strong>slowthai, Skepta</strong> - <em>CANCELLED</em>
+                    <audio controls style="margin-left: 10px;">
+                        <source src="mp3/slowthai, Skepta - CANCELLED.mp3" type="audio/mp3">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </li>
+                <li class="fade-in" style="margin-bottom: 10px; display: flex; align-items: center; justify-content: center;">
+                    🎧 <strong>A$AP Rocky Feat. Skepta</strong> - <em>Praise The Lord (Da Shine)</em>
+                    <audio controls style="margin-left: 10px;">
+                        <source src="mp3/A$AP Rocky Feat. Skepta - Praise The Lord (Da Shine).mp3" type="audio/mp3">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </li>
+            </ul>
+        </div>
+
+        <div style="text-align: center;">
+            <h3 class="fade-in" style="font-size: 1.5em;">Music Videos:</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sFG_1BkjmTw?si=NPQ_iHeUVBtCEVkJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TsmGjOalzII?si=xWTM8CziVLigRW3-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <style>
+            .fade-in {
+                opacity: 0;
+                animation: fadeIn 1s forwards;
+                animation-delay: 0.5s; /* Задержка перед началом анимации */
+            }
+
+            @keyframes fadeIn {
+                to {
+                    opacity: 1;
+                }
+            }
+
+            /* Добавьте класс для анимации каждого элемента при скролле */
+            .fade-in:nth-child(n) {
+                animation-delay: calc(0.5s + (0.2s * var(--i)));
+            }
+        </style>
+
+
+    <section id="work" class="section-content">
+        <h2>My Work</h2>
+        <p>Currently, I work as a web developer, focusing on creating dynamic and responsive websites. I specialize in front-end development with technologies like HTML, CSS, JavaScript, and frameworks such as React and Blazor.</p>
+
+        <!-- Canvas API Example -->
+        <canvas id="myCanvas" width="400" height="200" style="border:1px solid #000000;"></canvas>
+        <script>
+            var canvas = document.getElementById('myCanvas');
+            var context = canvas.getContext('2d');
+
+            // Draw a rectangle
+            context.fillStyle = "#FF0000";
+            context.fillRect(20, 20, 150, 100);
+
+            // Draw a circle
+            context.beginPath();
+            context.arc(200, 100, 40, 0, 2 * Math.PI);
+            context.fillStyle = "#0000FF";
+            context.fill();
+        </script>
+
+        <!-- Control Elements -->
+        <h3>Customize Interface</h3>
+
+        <label for="textColor">Text Color:</label>
+        <input type="color" id="textColor" value="#000000">
+        <br>
+
+        <label for="bgColor">Background Color:</label>
+        <input type="color" id="bgColor" value="#ffffff">
+        <br>
+
+        <label for="fontSize">Font Size:</label>
+        <input type="number" id="fontSize" value="16" min="10" max="36"> px
+        <br>
+        <h4>Text Style:</h4>
+        <label><input type="radio" name="textStyle" value="normal" checked> Normal</label>
+        <label><input type="radio" name="textStyle" value="bold"> Bold</label>
+        <label><input type="radio" name="textStyle" value="italic"> Italic</label><br>
+        <button id="applyStyles">Apply Styles</button>
+
+
+
+        <script>
+            document.getElementById('applyStyles').addEventListener('click', function () {
+                var textColor = document.getElementById('textColor').value;
+                var bgColor = document.getElementById('bgColor').value; // Get the selected background color
+                var fontSize = document.getElementById('fontSize').value;
+
+                var textStyle = document.querySelector('input[name="textStyle"]:checked').value;
+
+                document.body.style.color = textColor;
+                document.body.style.backgroundImage = 'none';
+                document.body.style.backgroundColor = bgColor;
+                document.body.style.fontSize = fontSize + 'px';
+                document.body.style.fontWeight = textStyle === 'bold' ? 'bold' : 'normal';
+                document.body.style.fontStyle = textStyle === 'italic' ? 'italic' : 'normal'; 
+            });
+        </script>
+    </section>
+
+
+</div>
+<footer>
+    <h2 class="footer-title">Ищи нас тут</h2>
+    <div class="social-container">
+        <div class="social-media">
+            <h3>Андрей:</h3>
+            <a href="https://twitter.com/yourusername" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+            </a>
+            <a href="https://twitter.com/yourusername" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                </svg>
+            </a>
+            <a href="https://twitter.com/yourusername" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-telegram" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="social-media">
+            <h3>Настя:</h3>
+            <a href="https://twitter.com/yourusername" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+            </a>
+            <a href="https://twitter.com/yourusername" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                </svg>
+            </a>
+            <a href="https://twitter.com/yourusername" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-telegram" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script>
+        // Function to switch between sections and highlight the active button
+        function showSection(sectionId, button) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.section-content');
+            sections.forEach(section => {
+                section.classList.remove('active-section');
+            });
+
+            // Show the selected section
+            const selectedSection = document.getElementById(sectionId);
+            selectedSection.classList.add('active-section');
+
+            // Remove 'active' class from all buttons
+            const buttons = document.querySelectorAll('#nav-menu button');
+            buttons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Add 'active' class to the clicked button
+            button.classList.add('active');
+        }
+    </script>
+</body>
+
+</html>

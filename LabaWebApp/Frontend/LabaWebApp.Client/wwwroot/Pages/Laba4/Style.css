@@ -1,0 +1,240 @@
+﻿/* Основной стиль для body */
+body {
+ 
+    margin: 0;
+    min-height: 100vh; /* Устанавливаем минимальную высоту на всю высоту окна */
+    display: flex;
+    flex-direction: column; /* Используем флекс-контейнер для фиксации футера внизу */
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#c77dff, #240046);
+}
+
+
+#nav-menu {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 5px;
+    gap: 15px; /* Устанавливаем расстояние между кнопками */
+}
+
+    #nav-menu button {
+        border: none;
+        border-radius: 20px; /* Закругляем края кнопок */
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 3rem;
+        text-decoration: none; /* Убираем подчеркивание ссылок */
+        padding: 0 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+        /* Добавлено расстояние между кнопками */
+
+        width: 15%; /* Устанавливаем ширину кнопок в пределах контейнера */
+        box-sizing: border-box; /* Учитываем паддинг и границы */
+        background-color: #7b2cbf;
+        transition: background-color 0.3s, transform 0.2s; /* Добавлен эффект плавного перехода */
+    }
+
+        #nav-menu button.active {
+            background-color: #5a189a;
+            transform: scale(0.9);
+            color: white;
+        }
+
+        #nav-menu button:hover {
+            background-color: #9d4edd; /* Светло-зелёный цвет при наведении */
+            transform: scale(1.1); /* Увеличение размера кнопки */
+        }
+
+                #nav-menu button:active {
+                    transform: scale(0.9); /* Уменьшение размера кнопки при нажатии */
+                }
+
+/* Контент секций */
+#content {
+    text-align: center;
+    flex-grow: 1; /* Раздвигаем контент на оставшееся пространство, чтобы футер был внизу */
+}
+
+
+.section-content {
+    display: none;
+}
+
+.active-section {
+    display: block;
+    opacity: 1; /* Убираем opacity для активной секции */
+}
+
+/* Анимация для выезда слева направо */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Анимация для выезда справа налево */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-slide-left {
+    animation: slideInLeft 1s ease-out forwards;
+}
+
+.animate-slide-right {
+    animation: slideInRight 1s ease-out forwards;
+}
+
+/* Задержка анимации для плавности */
+.about-section-left .text-container,
+.about-section-right .text-container {
+    animation: slideInLeft 1s ease-out forwards; /* Применяем анимацию для текста */
+}
+
+.about-section-left .image-container,
+.about-section-right .image-container {
+    animation: slideInLeft 1s ease-out forwards; /* Применяем анимацию для изображений */
+}
+
+.about-section-left {
+    display: flex; /* Используем флекс-контейнер для горизонтального выравнивания */
+    align-items: center; /* Центрируем элементы по вертикали */
+    margin-bottom: 20px; /* Отступ между секциями */
+}
+
+.image-container {
+    margin: 10px;
+    width: 25%; /* Устанавливаем ширину контейнера для изображения */
+}
+
+    .image-container img {
+        width: 100%; /* Изображение занимает всю ширину контейнера */
+        height: auto; /* Автоматическая высота для сохранения пропорций */
+        border-radius: 5%; /* Закругленные углы */
+    }
+
+.text-container {
+    
+    flex: 1; /* Текст занимает оставшееся пространство */
+    padding: 0; /* Убираем отступы между текстом и изображением */
+    margin: 0; /* Убираем отступы вокруг текста */
+}
+
+.about-section-right {
+    display: flex; /* Используем флекс-контейнер для горизонтального выравнивания */
+    align-items: center; /* Центрируем элементы по вертикали */
+    margin-bottom: 20px; /* Отступ между секциями */
+}
+
+.welcome-header {
+    color: #240046; /* Устанавливаем фоновый цвет */
+    padding: 5px; /* Добавляем немного отступов вокруг текста для лучшего внешнего вида */
+    text-align: center; /* Центрируем текст */
+    margin-bottom: 0;
+}
+.text-container {
+    flex: 1; /* Текст занимает оставшееся пространство */
+    padding: 0; /* Убираем отступы между текстом и изображением */
+    margin: 0; /* Убираем отступы вокруг текста */
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.8rem; /* Увеличиваем размер шрифта */
+    font-weight: <weight>;
+    font-style: normal;
+    color: white; /* Устанавливаем цвет текста белым */
+}
+
+
+.section-title {
+    font-size: 2rem; /* Размер заголовка */
+    color: #240046; /* Цвет заголовка */
+    text-align: center; /* Центрируем заголовок */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+.big-title {
+    font-size: 2rem; /* Увеличьте значение для большего размера текста */
+    font-weight: bold; /* Сделаем текст жирным, если нужно */
+    margin: 0; /* Убираем отступы, если они не нужны */
+}
+
+/* Стили для футера */
+footer {
+    background-color: #10002b;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: auto; /* Фиксируем футер внизу, если контент короткий */
+}
+
+/* Заголовок футера */
+.footer-title {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+/* Контейнер для социальных медиа */
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    gap: 30px;
+}
+
+/* Контейнер для каждой группы соц. медиа */
+.social-media {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+    .social-media h3 {
+        margin: 0px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    /* Стили для ссылок и иконок */
+    .social-media a {
+        display: inline-block;
+        margin: 3px 8px;
+        transition: transform 0.3s ease, background 0.3s ease;
+        width: 35px; /* Фиксированная ширина */
+        height: 35px; /* Фиксированная высота */
+        line-height: 35px; /* Высота строки для центрирования */
+    }
+
+    /* Иконки */
+    .social-media svg {
+        width: 35px;
+        height: 35px;
+        vertical-align: middle; /* Центрирование по вертикали */
+    }
+
+    /* Эффект при наведении на ссылки */
+    .social-media a:hover {
+        transform: scale(1.2); /* Увеличиваем без изменения размеров */
+
+        border-radius: 50%;
+        padding: 0; /* Убираем padding, чтобы не менять размеры */
+    }
