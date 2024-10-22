@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nRFFLsibdOffQgyX02dugKrABHyvrdKbA1hVEXwkcf4=",
+  "Hash": "iGSoDZeciwsg9mzydR6xK72d6FQo+uIT3Yfn/N1x/eo=",
   "Source": "LabaWebApp.Client",
   "BasePath": "_content/LabaWebApp.Client",
   "Mode": "Default",
@@ -984,25 +984,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Pages\\Laba4\\mp3\\The White Stripes - Seven Nation Army.mp3"
-    },
-    {
-      "Identity": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba4\\script.js",
-      "SourceId": "LabaWebApp.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\",
-      "BasePath": "_content/LabaWebApp.Client",
-      "RelativePath": "Pages/Laba4/script.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Pages\\Laba4\\script.js"
     },
     {
       "Identity": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba4\\Style.css",
