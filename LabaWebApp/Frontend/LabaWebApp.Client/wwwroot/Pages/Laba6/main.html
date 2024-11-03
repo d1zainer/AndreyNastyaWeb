@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление пациентами</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключение внешнего CSS файла -->
+    
+</head>
+<body>
+
+    <h1>Управление пациентами</h1>
+
+    <div class="card">
+        <h3>Список пациентов</h3>
+        <button onclick="loadPatients()">Загрузить пациентов</button>
+        <table id="patientsTable">
+            <thead>
+                <tr>
+                    <th>ФИО</th>
+                    <th>GUID</th>
+                    <th>Пол</th>
+                    <th>Дата рождения</th>
+                </tr>
+            </thead>
+            <tbody id="patientsBody">
+                <!-- Данные пациентов будут добавлены сюда -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card">
+        <h3>Найти пациента по GUID</h3>
+        <input type="text" id="guidInput" placeholder="Введите GUID" />
+        <button onclick="loadPatientByGuid()">Найти пациента</button>
+        <div id="patientInfo"></div>
+    </div>
+
+    <div class="card">
+        <h3>Найти пациента по имени</h3>
+        <input type="text" id="nameInput" placeholder="Введите имя пациента" />
+        <button onclick="loadPatientByName()">Найти пациента</button>
+        <div id="patientByNameInfo"></div>
+    </div>
+
+    <div class="card">
+        <h3>Обновить данные пациента</h3>
+        <input type="text" id="updateGuidInput" placeholder="GUID пациента" />
+        <input type="text" id="updateFullName" placeholder="ФИО" />
+        <input type="text" id="updateGender" placeholder="Пол" />
+        <input type="date" id="updateBirthday" placeholder="Дата рождения" />
+        <button onclick="updatePatient()">Обновить пациента</button>
+    </div>
+
+    <div class="card">
+        <h3>Удалить пациента по GUID</h3>
+        <input type="text" id="deleteGuidInput" placeholder="GUID пациента" />
+        <button onclick="deletePatient()">Удалить пациента</button>
+    </div>
+    <div class="card">
+        <h3>Добавить нового пациента</h3>
+        <input type="text" id="newFullName" placeholder="ФИО" />
+        <input type="text" id="newGender" placeholder="Пол" />
+        <input type="date" id="newBirthday" placeholder="Дата рождения" />
+        <button onclick="createPatient()">Добавить пациента</button>
+        <div id="addPatientInfo"></div>
+    </div>
+
+    <script src="PatientService.js"></script>
+
+</body>
+</html>

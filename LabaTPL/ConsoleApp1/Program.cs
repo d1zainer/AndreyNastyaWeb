@@ -80,13 +80,13 @@ namespace ConsoleApp1
         static void SecondLabMenu()
         {
             Console.Clear();
-            Console.WriteLine("Первая лабораторная работа - Варианты:");
+            Console.WriteLine("Вторая лабораторная работа - Варианты:");
             Console.WriteLine("1. Вариант 1 - Последовательная обработка");
             Console.WriteLine("2. Вариант 2 - Усложненной последовательной обработки");
             Console.WriteLine("3. Вариант 3 - Многопоточной обработкиа");
             Console.WriteLine("4. Вариант 4 - Усложненной многопоточной обработки");
             Console.WriteLine("5. Вариант 5 - Разделения по диапазону");
-            Console.WriteLine("5. Вариант 6 - Параллелизма при круговом разделении");
+            Console.WriteLine("6. Вариант 6 - Параллелизма при круговом разделении");
             Console.Write("Выберите вариант: ");
 
             string choice = Console.ReadLine();
@@ -107,6 +107,9 @@ namespace ConsoleApp1
                     break;
                 case "5":
                     Labs.Laba2.FifthVariant fifth = new Labs.Laba2.FifthVariant();
+                    break;
+                case "6":
+                    Labs.Laba2.SixthVariant sixth = new Labs.Laba2.SixthVariant();
                     break;
                 default:
                     Console.WriteLine("Неверный выбор варианта.");

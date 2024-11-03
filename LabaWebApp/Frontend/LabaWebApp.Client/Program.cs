@@ -1,3 +1,5 @@
+
+
 using LabaWebApp.Client.Components;
 
 namespace LabaWebApp.Client
@@ -11,6 +13,7 @@ namespace LabaWebApp.Client
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
+           
 
             var app = builder.Build();
 
@@ -22,7 +25,7 @@ namespace LabaWebApp.Client
 
             app.UseStaticFiles();
             app.UseAntiforgery();
-
+           
             app.MapRazorComponents<App>()
                 .AddInteractiveServerRenderMode();
 

@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "iGSoDZeciwsg9mzydR6xK72d6FQo+uIT3Yfn/N1x/eo=",
+  "Hash": "I12tO3rVDY3zvF/wrzfNKuVq8NrtGZweZK+Rls8TfKQ=",
   "Source": "LabaWebApp.Client",
   "BasePath": "_content/LabaWebApp.Client",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Backend\\LabaWebApp.API\\LabaWebApp.API.csproj",
+      "Version": 2,
+      "Source": "LabaWebApp.API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "LabaWebApp.Client\\wwwroot",
@@ -1003,6 +1015,63 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Pages\\Laba4\\Style.css"
+    },
+    {
+      "Identity": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba6\\main.html",
+      "SourceId": "LabaWebApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\",
+      "BasePath": "_content/LabaWebApp.Client",
+      "RelativePath": "Pages/Laba6/main.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pages\\Laba6\\main.html"
+    },
+    {
+      "Identity": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba6\\PatientService.js",
+      "SourceId": "LabaWebApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\",
+      "BasePath": "_content/LabaWebApp.Client",
+      "RelativePath": "Pages/Laba6/PatientService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pages\\Laba6\\PatientService.js"
+    },
+    {
+      "Identity": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba6\\style.css",
+      "SourceId": "LabaWebApp.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\",
+      "BasePath": "_content/LabaWebApp.Client",
+      "RelativePath": "Pages/Laba6/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pages\\Laba6\\style.css"
     }
   ]
 }

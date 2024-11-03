@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LabaWebApp.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb7a708a424634ee06ad69d001e0b2f244d2dbdd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32156f1ce0848c02341124028e8376e8a4b721fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("LabaWebApp.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LabaWebApp.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

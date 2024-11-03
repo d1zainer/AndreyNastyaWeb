@@ -189,6 +189,18 @@
       "PackagePath": "staticwebassets\\Pages\\Laba4\\mp3\\slowthai, Skepta - CANCELLED.mp3"
     },
     {
+      "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba6\\PatientService.js",
+      "PackagePath": "staticwebassets\\Pages\\Laba6\\PatientService.js"
+    },
+    {
+      "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba6\\main.html",
+      "PackagePath": "staticwebassets\\Pages\\Laba6\\main.html"
+    },
+    {
+      "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\Pages\\Laba6\\style.css",
+      "PackagePath": "staticwebassets\\Pages\\Laba6\\style.css"
+    },
+    {
       "Id": "C:\\C#\\EducationSFEDU\\LabaRasp\\LabaWebApp\\Frontend\\LabaWebApp.Client\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },

@@ -43,7 +43,7 @@ namespace ConsoleApp1.Labs.Laba2
 
             var t = (t2 - t1).TotalMilliseconds;
             // Время выполнения
-            Console.WriteLine($"Последовательное выполнение: {t} мс");
+            Console.WriteLine($"Время: {t} мс");
 
         }
     }
